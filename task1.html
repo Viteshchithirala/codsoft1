@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Background Image</title>
+    <title>Your Landing Page</title>
+    <style>
+        body{
+            background-image: url('gd.jpg');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            filter: blur('gd.jpg');
+        }
+        </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Product or Service</h1>
+        <p>A brief description of what you offer</p>
+    </header>
+
+    <section class="main-content">
+        <h2>Welcome to our Website!</h2>
+        <p>This is a brief introduction to your product or service. Highlight key features or benefits.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
